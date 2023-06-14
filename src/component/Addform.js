@@ -6,7 +6,7 @@ const Addform = ({AddGoal}) => {
 
     const HandleSubmit = (e) => {
         e.preventDefault();
-        if (typing == "") return; 
+        if (typing === "") return; 
         AddGoal(typing);
         SetTyping(""); 
     }
